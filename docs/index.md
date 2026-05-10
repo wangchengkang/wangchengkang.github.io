@@ -10,11 +10,11 @@ hero:
       text: Tech
       link: /tech/
     - theme: alt
-      text: 项目
-      link: /projects
-    - theme: alt
       text: Life
       link: /life/
+    - theme: alt
+      text: Misc
+      link: /misc/
 
 features:
   - title: Tech
