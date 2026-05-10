@@ -1,5 +1,7 @@
-# 文章
+# Posts
 
-先从第一篇开始。
+按专栏浏览：
 
-- 2026-05-08: Hello VitePress
+- Tech: /tech/
+- Life: /life/
+- Misc: /misc/

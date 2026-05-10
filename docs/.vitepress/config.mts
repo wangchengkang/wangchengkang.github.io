@@ -9,17 +9,31 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '文章', link: '/posts/' },
+      { text: 'Tech', link: '/tech/' },
+      { text: 'Life', link: '/life/' },
+      { text: 'Misc', link: '/misc/' },
       { text: '项目', link: '/projects' },
       { text: '关于', link: '/about' }
     ],
     sidebar: {
-      '/posts/': [
+      '/tech/': [
         {
-          text: '文章',
+          text: 'Tech',
           items: [
-            { text: '开始', link: '/posts/' }
+            { text: 'Index', link: '/tech/' }
           ]
+        }
+      ],
+      '/life/': [
+        {
+          text: 'Life',
+          items: [{ text: 'Index', link: '/life/' }]
+        }
+      ],
+      '/misc/': [
+        {
+          text: 'Misc',
+          items: [{ text: 'Index', link: '/misc/' }]
         }
       ]
     },
